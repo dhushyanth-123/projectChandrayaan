@@ -1,0 +1,106 @@
+.header_heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10%;
+    
+}
+
+#heading_name{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    display: block;
+}
+#quote{
+    color:  rgb(247, 65, 10);
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+.header_contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.headermainstoringbox{
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    max-width: 400px;
+    border-radius: 30px 30px 30px 30px
+    
+}
+
+.f_chatbot{
+    position:fixed;
+    display: flex;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.button1{
+    width: 50%;
+    padding:10px;
+    margin:5px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+.button2{
+    width:50%;
+    padding:10px;
+    margin:5px;
+    background-color: red;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+}
+.button1:hover{
+    opacity: 0.7;
+    padding: 14px;
+}
+.button2:hover{
+    opacity: 0.7;
+    padding: 14px;
+}
+.button1:active{
+ opacity: 0.8;
+ background-color: blue;
+ color: aliceblue;
+}
+.button2:active{
+    opacity: 0.8;
+    background-color: blue;
+    color: aliceblue;
+}
+
